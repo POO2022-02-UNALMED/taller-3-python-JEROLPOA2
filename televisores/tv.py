@@ -36,8 +36,8 @@ class TV:
     def getPrecio(self):
         return self.precio
     
-    def setNumTV(self, numTV):
-        TV.numTV = numTV
+    def setNumTV(self,):
+        TV.numTV = TV.numTV
     
     def getNumTV(self):
         return TV.numTV
